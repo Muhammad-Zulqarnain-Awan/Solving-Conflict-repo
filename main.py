@@ -2,10 +2,9 @@
 def people(number):
     
     if number > 0:
-        return ("World Population: ",number)
+        print("World Population: ",number)
     else:
-        return ("All are death. We are ghosts.")
+        print("All are death. We are ghosts.")
 
 number = int(input("Enter the number of population: "))
-
-print(people(number))
+people(number)
