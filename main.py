@@ -1,5 +1,10 @@
 
-def people():
-    print("All the death. We are ghosts.")
+def people(number):
+    
+    if number > 0:
+        print("World Population: ",number)
+    else:
+        print("All are death. We are ghosts.")
 
-people()
+number = int(input("Enter the number of population: "))
+people(number)
